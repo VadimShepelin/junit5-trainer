@@ -3,6 +3,7 @@ package com.dmdev.integration;
 import com.dmdev.util.ConnectionManager;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import java.sql.SQLException;
 
@@ -29,6 +30,7 @@ public abstract class IntegrationTestBase {
             statement.execute(CREATE_SQL);
         }
     }
+
 
     @BeforeEach
     void cleanData() throws SQLException {
