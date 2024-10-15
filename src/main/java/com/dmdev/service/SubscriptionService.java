@@ -17,10 +17,10 @@ import java.time.Instant;
 @RequiredArgsConstructor
 public class SubscriptionService {
 
-    private final SubscriptionDao subscriptionDao;
-    private final CreateSubscriptionMapper createSubscriptionMapper;
-    private final CreateSubscriptionValidator createSubscriptionValidator;
-    private final Clock clock;
+    private SubscriptionDao subscriptionDao;
+    private CreateSubscriptionMapper createSubscriptionMapper;
+    private CreateSubscriptionValidator createSubscriptionValidator;
+    private Clock clock;
 
     public Subscription upsert(CreateSubscriptionDto dto) {
         var validationResult = createSubscriptionValidator.validate(dto);
