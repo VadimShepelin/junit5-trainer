@@ -7,8 +7,11 @@ Exercise:
 Technical details:
 
 -Unit and Integration tests should be run in different phases of the life cycle
+
 -To implement Integration tests, you need to inherit from the IntegrationTestBase class
+
 -Remember about the correct naming of Unit and Integration tests (both classes and methods)
+
 -To check the percentage of test coverage, you can use the jacoco plugin, or IntelliJ IDEA (Run with Coverage)
 
 Task completed:
