@@ -4,6 +4,7 @@ Exercise:
 
 -Cover 80-90% of the code with Unit and Integration tests
 
+
 Technical details:
 
 -Unit and Integration tests should be run in different phases of the life cycle
@@ -13,6 +14,7 @@ Technical details:
 -Remember about the correct naming of Unit and Integration tests (both classes and methods)
 
 -To check the percentage of test coverage, you can use the jacoco plugin, or IntelliJ IDEA (Run with Coverage)
+
 
 Task completed:
 
