@@ -9,12 +9,13 @@ import com.dmdev.exception.SubscriptionException;
 import com.dmdev.exception.ValidationException;
 import com.dmdev.mapper.CreateSubscriptionMapper;
 import com.dmdev.validator.CreateSubscriptionValidator;
+import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 
 import java.time.Clock;
 import java.time.Instant;
 
-@RequiredArgsConstructor
+@AllArgsConstructor
 public class SubscriptionService {
 
     private SubscriptionDao subscriptionDao;
