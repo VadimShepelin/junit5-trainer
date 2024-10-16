@@ -2,9 +2,7 @@
 
 Exercise:
 
--Cover 80-90% of the code with Unit and Integration tests
-<br>
-
+-Cover 80-90% of the code with Unit and Integration tests<br><br>
 
 Technical details:
 
