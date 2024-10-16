@@ -3,7 +3,7 @@
 Exercise:
 
 -Cover 80-90% of the code with Unit and Integration tests
-
+<br>
 
 
 Technical details:
@@ -16,7 +16,7 @@ Technical details:
 
 -To check the percentage of test coverage, you can use the jacoco plugin, or IntelliJ IDEA (Run with Coverage)
 
-
+<br>
 
 Task completed:
 
